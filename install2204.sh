@@ -15,7 +15,7 @@ sudo ufw allow samba
 sudo ufw allow 'Apache Full'
 sudo ufw allow openssh
 sudo ufw allow 9090
-sudo ufw enable
+yes | sudo ufw enable
 
 sudo adduser $USER kvm
 sudo adduser $USER libvirt
